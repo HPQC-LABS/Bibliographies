@@ -1,0 +1,8 @@
+Quadruple:
+2021 "A Probe into Propagators" (undergrad thesis) Jiani FEI. "Finally,θ is back transformed to a Nevanlinna interpolant via the inverse Möbius transform [...] In practice, we found that solving these equations required atleast quadruple precision."
+2019 "Coordinate Descent Full ConfigurationInteraction" Zhe Wang, Yingzhou Li, Jianfeng Lu "Last point on implementation focuses on thenumerical stability of the Rayleigh quotient. Different from other iterative methods, CDFCI updates one determinant per iteration. Hence, for large systems, the number of iteration couldeasily go beyond 10^8. For cumulated quantities such as c⊤c and c⊤Hc, the value is updated at7
+least 10^8 times, hence the accumulated numerical error could pollute the chemical accuracy, and thus careful treatment is needed.  In ourimplementation, we use a quadruple-precision floating point for c⊤c and c⊤Hc such that the relative error is at most 10^−16 unless the number of iteration exceeds 10^16."
+2021 "Chebyshev Matrix Product States with Canonical Orthogonalization for Spectral Functions of Many-Body Systems" Tong Jiang, Jiajun Ren, Zhigang Shuai "The correct orthogonalization will recover only when the unusual quadruple precisionis adopted (right panel)"
+
+Arbitrary:
+2021 "Arbitrarily accurate quantum alchemy" Guido Falk von Rudorff. "This  workcombines finite differences and arbitrary precision math to obtainhighly  accurate  energy  derivatives  for  use  in  quantum  alchemy." "Unless  stated  otherwise  in  the  data  files,  all  non-PySCF  calculations  in  this  work  have  been  performed  with  1000  significant digits."
